@@ -1,0 +1,43 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+
+#content {
+	width: 500px;
+	border: 1px solid rgb(27 211 231);
+}
+
+#content h2{
+	text-align: center;
+	color: #fff;
+	border: 1px solid rgb(21 171 187);
+	background: rgb(25 187 204);
+}
+.header {
+	margin: 0px;
+	background: rgb(25 187 204);
+	cursor: pointer;
+}
+
+.words {
+	height: 0;
+	overflow: auto;
+	transition: height 1s;
+}
+
+.active {
+	height: 100px;
+
+}
+
+/* Tried putting a hover highlight effect on headers but wasn't working.
+theory is that you can't put hover effect on header
+
+
+
